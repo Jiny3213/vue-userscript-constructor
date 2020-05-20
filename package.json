@@ -1,0 +1,32 @@
+{
+  "name": "vue-userscript-constructor",
+  "version": "1.0.0",
+  "description": "constructor for TamperMonkey userScript using Vue2.x",
+  "author": "Jiny3213<149757089@qq.com>",
+  "private": true,
+  "main": "/src/main.js",
+  "keywords": ["webpack", "vue", "tampermonkey", "userscript"],
+  "scripts": {
+    "serve": "webpack-dev-server --open --config webpack.dev.js",
+    "bulid": "webpack --config webpack.prod.js && node addHeader.js"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "clean-webpack-plugin": "^3.0.0",
+    "css-loader": "^3.5.3",
+    "file-loader": "^6.0.0",
+    "html-webpack-plugin": "^4.3.0",
+    "sass-loader": "^8.0.2",
+    "style-loader": "^1.2.1",
+    "vue-loader": "^15.9.2",
+    "vue-template-compiler": "^2.6.11",
+    "webpack": "^4.43.0",
+    "webpack-cli": "^3.3.11",
+    "webpack-dev-server": "^3.11.0",
+    "webpack-merge": "^4.2.2",
+    "node-sass": "^4.14.1"
+  },
+  "dependencies": {
+    "vue": "^2.6.11"
+  }
+}
